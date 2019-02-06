@@ -1,1 +1,0 @@
-# blake_strong_chico
