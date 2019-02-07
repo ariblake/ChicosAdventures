@@ -1,1 +1,1 @@
-# blake_strong_chico
+Repo for Chico's Adventures Website
