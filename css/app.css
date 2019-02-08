@@ -1,0 +1,20 @@
+.boxHelper {
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+#container {
+	margin: 0 auto;
+	background-color: #ECECEC;
+}
+
+@media screen and (min-width: 64em) {
+	#container {
+		width: 90%;
+	}
+}
