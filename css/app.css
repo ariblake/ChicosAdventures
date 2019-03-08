@@ -13,6 +13,47 @@
 	background-color: #ECECEC;
 }
 
+/*Fonts*/
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.6em;
+	line-height: 1em;
+	color: #175878;
+}
+
+/*Header*/
+.top-bar {
+	background-color: #fff;
+	text-align: center;
+}
+
+
+#mainLogo {
+	
+}
+
+#mainlogo h1 {
+	
+}
+
+#logoImg {
+	width: 50px;
+	
+}
+
+#mainNav ul li a {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #000; 
+	background-color: #fff;
+}
+
+#mainNav ul li a:hover {
+	border-bottom: 2px solid #ef4352;
+}
+
 @media screen and (min-width: 64em) {
 	#container {
 		width: 90%;

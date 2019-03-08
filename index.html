@@ -7,18 +7,42 @@
     <title>Chico's Adventures for Kids</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet">
   </head>
   <body>
 
     <main id="container">
-      <header class="grid-x grid-margin-x" >
-        <h1 class="hidden">Chico's Adventures</h1>
-        <div class="cell medium-offset-3 medium-2">
-          <p class="boxHelper">LOGO</p>
+      <header class="grid-x grid-margin-x" id="mainHeader">
+        <!--<div class="cell medium-offset-3 medium-2" id="logo">
+          <a href="index.html">
+            <h1>Chico's Adventures</h1>
+            <img src="images/logo.svg" alt="logo" id="logoImg">
+          </a>
         </div>
         <nav class="cell medium-4">
           <h2 class="hidden">Main Navigation</h2>
-          <p class="boxHelper">NAV</p>
+          <ul class="menu" id="mainNav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Order</a></li>
+          </ul>
+        </nav>-->
+        <nav class="top-bar" id="mainNav">
+          <div class="top-bar-left small-order-2 medium-order-1">
+            <ul class="menu vertical medium-horizontal">
+              <li><a href="index.html">Home</a></li>
+            </ul>
+          </div>
+          <div class="top-bar-center small-order-1 medium-order-2" id="mainLogo">
+            <a href="index.html">
+              <h1 class="text-center">Chico's<br>Adventures</h1>
+              <img src="images/logo.svg" alt="logo" id="logoImg">
+            </a>
+          </div>
+          <div class="top-bar-right small-order-3 medium-order-3">
+            <ul class="menu vertical medium-horizontal">
+              <li><a href="order.html">Order</a></li>
+            </ul>
+          </div>
         </nav>
       </header>
 
