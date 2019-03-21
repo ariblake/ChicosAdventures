@@ -22,12 +22,12 @@ h1 {
 	color: #175878;
 }
 
+
 /*Header*/
 .top-bar {
 	background-color: #fff;
 	text-align: center;
 }
-
 
 #mainLogo {
 	
@@ -59,3 +59,130 @@ h1 {
 		width: 90%;
 	} 
 }
+
+
+/*Meet Chico Section*/
+#meetChicoSection
+{
+	background-color: rgb(23, 88, 120);
+}
+
+#meetChicoHeader
+{
+	color: rgb(255, 255, 255);
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 40px;
+	padding-left: 10px;
+	padding-top: 15px;
+}
+
+#meetChicoTitle
+{
+	color: rgb(255, 255, 255);
+	font-family: 'Ubuntu', sans-serif;
+	padding: 10px;
+}
+
+#meetChicoText
+{
+	color: rgb(255, 255, 255);
+	font-family: 'Ubuntu', sans-serif;
+	padding: 10px;
+}
+
+
+/*Our Book Has Section*/
+#our
+{
+	background-color: #ffffff;
+}
+
+.ourTitle
+{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+.ourText
+{
+	font-family: Open Sans, sans-serif;
+	text-align: center;
+	color: #1c1c1c;
+}
+
+#educatedTitle
+{
+	color: #175878; /*dark blue*/
+}
+
+#supportedTitle
+{
+	color: #EF4352; /*pink*/
+}
+
+#encouragedTitle
+{
+	color: #F5BE4F; /*yellow*/
+}
+
+#relievedTitle
+{
+	color: #07B6C3; /*light blue*/
+}
+
+/*#ourOne
+{
+	padding: 30px;
+}
+
+#ourTwo
+{
+	padding: 10px;
+}
+
+#ourThree
+{
+	padding: 10px;
+}
+
+#ourFour
+{
+	padding: 10px;
+}
+*/
+
+
+/*Creators Section*/
+.creators
+{
+	background-color: #2BB892; /*green*/
+}
+
+
+/*Contact Us Section*/
+
+/*Social Section*/
+.social
+{
+	background-color: #FFFFFF; /*white*/
+}
+
+/*Footer Section*/
+.footer
+{
+	background-color: #EF4352; /*pink*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
