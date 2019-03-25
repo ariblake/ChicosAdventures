@@ -8,99 +8,65 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
+
   <body>
-
     <main id="container">
-      <header class="grid-x grid-margin-x" id="mainHeader">
 
-<!-- Our code to try -->
-        <!--<div class="cell medium-offset-3 medium-2" id="logo">
-          <a href="index.html">
-            <h1>Chico's Adventures</h1>
-            <img src="images/logo.svg" alt="logo" id="logoImg">
-          </a>
-        </div>
-        <nav class="cell medium-4">
-          <h2 class="hidden">Main Navigation</h2>
-          <ul class="menu" id="mainNav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Order</a></li>
+      <!--Header-->
+      <header class="grid-x grid-margin-x align-center-middle" id="mainHeader">
+        <div class="small-12 medium-2 small-order-2 medium-order-1" id="homeBtn">
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
           </ul>
-        </nav>-->
-        <nav class="top-bar" id="mainNav">
-          <div class="top-bar-left small-order-2 medium-order-1">
-            <ul class="menu vertical medium-horizontal">
-              <li><a href="index.html">Home</a></li>
+        </div>
+    
+        <div class="small-12 medium-6 small-order-1 medium-order-2 align-middle" id="mainLogo">
+            <ul>
+              <a href="index.html">
+                <li><h1 class="text-center">Chico's<br>Adventures</h1><li>
+                <li><img class="float-center" src="images/logo.svg" alt="logo" id="logoImg"></li>
+              </a>
             </ul>
-          </div>
-          <div class="top-bar-center small-order-1 medium-order-2" id="mainLogo">
-            <a href="index.html">
-              <h1 class="text-center">Chico's<br>Adventures</h1>
-              <img src="images/logo.svg" alt="logo" id="logoImg">
-            </a>
-          </div>
-          <div class="top-bar-right small-order-3 medium-order-3">
-            <ul class="menu vertical medium-horizontal">
-              <li><a href="order.html">Order</a></li>
-            </ul>
-          </div>
-        </nav>
+        </div>
+        
+        <div class="small-12 medium-2 small-order-3 medium-order-3" id="orderBtn">
+          <ul class="menu">
+            <li><a href="order.html">Order</a></li>
+          </ul>
+        </div>
       </header>
 
-
-<!-- Justin's code to try -->
-      <!-- <div class="large-2">
-        <ul class="menu">
-          <li><a href="index.html">Home</a></li>
-        </ul>
-      </div>
-    
-      <div class="large-8">
-        <a href="index.html">
-          <ul>
-            <li><h1 class="text-center">Chico's<br>Adventures</h1><li>
-            <li><img class="float-center" src="images/logo.svg" alt="logo" id="logoImg"></li>
-          </ul>
-        </a>
-      </div>
-      
-      <div class="large-2">
-        <ul class="menu">
-          <li><a href="order.html">Order</a></li>
-        </ul>
-      </div> -->
-
-
-
-      <section class="grid-x grid-margin-x">
+      <!--Hero Images-->
+      <section class="grid-x grid-margin-x" id="heroSection">
         <h2 class="hidden">Image Section</h2>
         <div class="cell medium-4 hide-for-small-only">
-          <!-- <p class="boxHelper">HERO 1</p> -->
           <img src="images/heroImage1.jpg" alt="Image of a stethoscope" title="Chico's Stethoscope">
         </div>
         <div class="cell medium-4">
-          <!-- <p class="boxHelper">HERO 2</p> -->
           <img src="images/heroImage2.jpg" alt="Image of a dog" title="Happy Chico">
         </div>
         <div class="cell medium-4 hide-for-small-only">
-          <!-- <p class="boxHelper">HERO 3</p> -->
-          <img src="images/heroImage3.jpg" alt="Image of a stethoscope" title="Chico's Stethoscope">
+          <img src="images/heroImage3.jpg" alt="Image of a bandage" title="Chico's Bandages">
         </div>
       </section>
 
+      <!--Meet Chico-->
       <section class="grid-x grid-margin-x">
-        <h2 class="hidden">Meet Chico</h2>
-        <div class="cell" id="meetChicoSection">
-          <!-- <p class="boxHelper">MEET CHICO</p> -->
-          <p id="meetChicoHeader">MEET CHICO</p>
-          <p id="meetChicoTitle">About the book</p>
-          <p id="meetChicoText">Kids, are you scared about going to the doctor's office, the dentist's office or the hospital? No problem! Your friend Chico was scared too. Read along and see how he conquered his fears just like you can!<br><br>Chico is a friendly, playful and affectionate Pek-Tzu Chorkie. He loves going on medical adventures and teaching children his stories, advice and love.<br><br>Chico's Adventures book helps alleviate the fear and anxiety of young children arriving at emergency rooms. When you buy this book for a child, it helps to educate them on common medical procedures. Chico's book replaces the child's fears with smiles and giggles. Please order below!</p>
+        <div class="cell small-12" id="meetChico">
+          <h2>Meet Chico!</h2>
+          <h3>About the book</h3>
+          <div id="meetChicoText">
+            <p>Kids, are you scared about going to the doctor's office, the dentist's office or the hospital? No problem! Your friend Chico was scared too. Read along and see how he conquered his fears just like you can!</p>
+            <p>Chico is a friendly, playful and affectionate Pek-Tzu Chorkie. He loves going on medical adventures and teaching children his stories, advice and love.</p>
+            <p>Chico's Adventures book helps alleviate the fear and anxiety of young children arriving at emergency rooms. When you buy this book for a child, it helps to educate them on common medical procedures. Chico's book replaces the child's fears with smiles and giggles. Please order below!</p>
+          </div>
+          <a class="chicoButtons" href="order.html">Order ></a>
         </div>
       </section>
 
-
-
+      <!--Our Book Has-->
       <section class="grid-x grid-margin-x">
         <h2 class="hidden">Our Book Has...</h2>
 
@@ -133,6 +99,7 @@
         </div>
       </section>
 
+      <!--Creators-->
       <section class="grid-x grid-margin-x">
         <h2 class="hidden">Creators</h2>
         <div class="cell medium-6 small-order-1 medium-order-2">
@@ -154,6 +121,7 @@
         </div>
       </section>
 
+      <!--Contact-->
       <section class="grid-x grid-margin-x">
         <h2 class="hidden">Contact Us</h2>
         <div class="cell small-offset-4 medium-offset-5 small-4 medium-2">
@@ -181,6 +149,7 @@
         </div>
       </section>
 
+      <!--Footer-->
       <footer class="grid-x grid-margin-x">
         <h2 class="hidden">Main Footer</h2>
         <div class="cell social">
