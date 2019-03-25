@@ -8,41 +8,76 @@
 	display: none;
 }
 
+/*Fonts*/
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.8em;
+	line-height: 1em;
+	color: #175878;
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-size: 2.4em;
+	line-height: 1em;
+	color: #000;
+}
+
+h3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.8em;
+	line-height: 1em;
+	color: #000;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	color: #000;
+}
+
+.chicoButtons {
+	background-color: #f5be4f;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.8em;
+	color: #fff;
+	padding: 15px 30px;
+	display: inline-block;
+}
+
+.chicoButtons a:hover {
+	background-color: #fff;
+}
+
 #container {
 	margin: 0 auto;
 	background-color: #ECECEC;
 }
 
-/*Fonts*/
-h1 {
-	font-family: 'Ubuntu', sans-serif;
-	text-transform: uppercase;
-	font-size: 1.6em;
-	line-height: 1em;
-	color: #175878;
-}
-
 
 /*Header*/
-.top-bar {
+#mainHeader {
+	padding: 20px;
 	background-color: #fff;
+	margin-top: 10px;
+	
+}
+
+#mainHeader ul {
+	list-style: none;
 	text-align: center;
+	justify-content: center;
 }
 
-#mainLogo {
-	
+#mainHeader ul li {
+	display: inline-block;
 }
 
-#mainlogo h1 {
-	
-}
-
-#logoImg {
-	width: 50px;
-	
-}
-
-#mainNav ul li a {
+#mainHeader ul li a {
 	font-family: 'Ubuntu', sans-serif;
 	text-transform: uppercase;
 	font-size: 1em;
@@ -50,45 +85,51 @@ h1 {
 	background-color: #fff;
 }
 
-#mainNav ul li a:hover {
+#mainHeader ul li a:hover {
 	border-bottom: 2px solid #ef4352;
 }
 
-@media screen and (min-width: 64em) {
-	#container {
-		width: 90%;
-	} 
+#logoImg {
+	width: 55px;
+	margin-left: 10px;
 }
 
+/*HOME PAGE*/
+/*Hero Images*/
+#heroSection {
+	padding: 20px 0px;
+	background-color: #fff;
+}
 
 /*Meet Chico Section*/
-#meetChicoSection
-{
-	background-color: rgb(23, 88, 120);
+#meetChico {
+	background-color: #175878;
+	padding: 40px 30px;
 }
 
-#meetChicoHeader
-{
-	color: rgb(255, 255, 255);
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 40px;
-	padding-left: 10px;
-	padding-top: 15px;
+#meetChico h2 {
+	color: #fff;
+	font-size: 2.6em;
+	margin-bottom: 15px;
 }
 
-#meetChicoTitle
-{
-	color: rgb(255, 255, 255);
-	font-family: 'Ubuntu', sans-serif;
-	padding: 10px;
+#meetChico h3 {
+	color: #fff;
+	margin-bottom: 30px;
 }
 
-#meetChicoText
-{
-	color: rgb(255, 255, 255);
-	font-family: 'Ubuntu', sans-serif;
-	padding: 10px;
+#meetChico p {
+	color: #fff;
 }
+
+#meetChicoText {
+	margin-bottom: 40px;
+}
+
+#meetChicoBtn {
+	justify-content: center;
+}
+
 
 
 /*Our Book Has Section*/
@@ -174,15 +215,16 @@ h1 {
 	background-color: #EF4352; /*pink*/
 }
 
+/*Medium Size*/
+@media screen and (min-width: 40em) {
+	#meetChico {
+		padding: 60px 80px;
+	}
+}
 
-
-
-
-
-
-
-
-
-
-
-
+/*Large Size*/
+@media screen and (min-width: 64em) {
+	#container {
+		width: 70%;
+	} 
+}
