@@ -20,7 +20,7 @@ h1 {
 h2 {
 	font-family: 'Ubuntu', sans-serif;
 	text-transform: uppercase;
-	font-size: 2.4em;
+	font-size: 2.2em;
 	line-height: 1em;
 	color: #000;
 }
@@ -28,6 +28,13 @@ h2 {
 h3 {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 1.8em;
+	line-height: 1em;
+	color: #000;
+}
+
+h4 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5em;
 	line-height: 1em;
 	color: #000;
 }
@@ -46,7 +53,6 @@ p {
 	font-size: 1.8em;
 	color: #fff;
 	padding: 15px 30px;
-	display: inline-block;
 }
 
 .chicoButtons a:hover {
@@ -105,6 +111,8 @@ p {
 #meetChico {
 	background-color: #175878;
 	padding: 40px 30px;
+	position: relative;
+	z-index: 1;
 }
 
 #meetChico h2 {
@@ -126,79 +134,105 @@ p {
 	margin-bottom: 40px;
 }
 
-#meetChicoBtn {
-	justify-content: center;
-}
 
+#meetChicoPrints {
+	width: 400px;
+	right: 0%;
+	position: absolute;
+	opacity: 0.4;
+	z-index: -1
+}
 
 
 /*Our Book Has Section*/
-#our
-{
-	background-color: #ffffff;
+#ourBook {
+	background-color: #fff;
+	padding: 40px 30px;
+
 }
 
-.ourTitle
-{
-	font-family: 'Ubuntu', sans-serif;
+#ourBook h2 {
 	text-align: center;
-	font-size: 30px;
+	padding-bottom: 10px;
+	text-decoration: underline #ef4352;
+	margin-bottom: 30px;
 }
 
-.ourText
-{
-	font-family: Open Sans, sans-serif;
+#ourBook img {
+	margin-bottom: 20px;
+}
+
+#ourBook h3 {
 	text-align: center;
-	color: #1c1c1c;
+	margin-bottom: 10px;
+	font-size: 1.6em;
 }
 
-#educatedTitle
-{
+#ourBook p {
+	text-align: center;
+	font-size: 1em;
+}
+
+#educatedTitle {
 	color: #175878; /*dark blue*/
 }
 
-#supportedTitle
-{
+#supportedTitle {
 	color: #EF4352; /*pink*/
 }
 
-#encouragedTitle
-{
+#encouragedTitle {
 	color: #F5BE4F; /*yellow*/
 }
 
-#relievedTitle
-{
+#relievedTitle {
 	color: #07B6C3; /*light blue*/
 }
 
-/*#ourOne
-{
-	padding: 30px;
-}
-
-#ourTwo
-{
-	padding: 10px;
-}
-
-#ourThree
-{
-	padding: 10px;
-}
-
-#ourFour
-{
-	padding: 10px;
-}
-*/
-
 
 /*Creators Section*/
-.creators
+#creators
 {
 	background-color: #2BB892; /*green*/
+	padding: 40px 30px;
 }
+
+#creators h2 {
+	text-align: center;
+	padding-bottom: 10px;
+	text-decoration: underline #175878;
+	margin-bottom: 30px;
+}
+
+#creators img {
+	margin-bottom: 20px;
+}
+
+#creators h3 {
+	color: #fff;
+}
+
+#creators h4 {
+	color: #175878;
+}
+
+#authorText {
+	text-align: center;
+}
+
+#illustratorText {
+	text-align: center;
+}
+
+#creators p {
+	margin-bottom: 40px;
+}
+
+#creatorQuote {
+	margin-top: 30px, 20px, 70px;
+	text-align: center;
+}
+
 
 
 /*Contact Us Section*/
@@ -220,6 +254,22 @@ p {
 	#meetChico {
 		padding: 60px 80px;
 	}
+
+	#meetChicoPrints {
+		width: 400px;
+		right: 2%;
+	}
+
+	#authorText {
+		text-align: right;
+	}
+	#illustratorText {
+		text-align: left;
+	}
+	#illustratorImg {
+		float: right;
+	}
+
 }
 
 /*Large Size*/
@@ -227,4 +277,16 @@ p {
 	#container {
 		width: 70%;
 	} 
+
+	#meetChicoPrints {
+		width: 400px;
+	}
+
+	#ourBook {
+		padding: 40px 60px;
+	}
+
+	#creators {
+	padding: 40px 60px;
+	}
 }
