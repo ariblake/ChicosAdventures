@@ -36,6 +36,14 @@
             <li><a href="order.html">Order</a></li>
           </ul>
         </div>
+        <nav class="cell hide-for-small-only small-12 small-order-4" id="subNav">
+          <ul>
+            <li id="subNav1"><a href="#meetChicoLink">Meet Chico</a></li>
+            <li><a href="#ourBookLink" id="subNav2">Our Book</a></li>
+            <li><a href="#creatorsLink" id="subNav3">Creators</a></li>
+            <li><a href="#contactLink" id="subNav4">Contact Us</a></li>
+          </ul>
+        </nav>
       </header>
 
       <!--Hero Images-->
@@ -54,6 +62,7 @@
 
       <!--Meet Chico-->
       <section class="grid-x grid-margin-x">
+        <a id="meetChicoLink">
         <div class="cell small-12" id="meetChico">
           <img src="images/paw_prints.png" alt="Paw Prints" id="meetChicoPrints">
           <div id="meetChicoInfo">
@@ -70,6 +79,7 @@
       </section>
 
       <!--Our Book Has-->
+      <a id="ourBookLink">
       <section class="grid-x grid-margin-x" id="ourBook">
         <div class="cell small-12">
           <h2>Our Book Has</h2>
@@ -101,6 +111,7 @@
       </section>
 
       <!--Creators-->
+      <a id="creatorsLink">
       <section class="grid-x grid-margin-x align-center" id="creators">
         <div class="cell small-12">
           <h2>Creators</h2>
@@ -111,7 +122,7 @@
         <div class="cell medium-6 small-order-2 medium-order-1" id="authorText">
           <h3>Meet Jen</h3>
           <h4>Author</h4>
-          <p>Since she was a child, Jen Dafoe experienced ongoing visits to health care facilities. These visits taught Jen to persevere. Jen noticed that many children were experiencing similar anxiety and stress isssues as she was. She decided that a series of easy to read story books for children and their parents on how to reduce stress and fear of upcoming medical procedures. The first in this series "Chico's First Trip to the Dentist", features Chico and his visit to the dentist.</p>
+          <p>Since she was a child, Jen Dafoe experienced ongoing visits to health care facilities. These visits taught Jen to persevere. Jen noticed that many children were experiencing similar anxiety and stress issues as she was. She decided that a series of easy to read story books for children and their parents on how to reduce stress and fear of upcoming medical procedures. The first in this series "Chico's First Trip to the Dentist", features Chico and his visit to the dentist.</p>
         </div>
         <div class="cell medium-6 small-order-3" id="illustratorImg">
           <img src="images/evan.jpg" alt="Image of Evan Shoman" title="Illustrator Evan Shoman">
@@ -119,61 +130,60 @@
         <div class="cell medium-6 small-order-4" id="illustratorText">
           <h3>Meet Evan</h3>
           <h4>Illustrator</h4>
-          <p>Evan Shoman graduated with a Bachelor’s Degree in Graphic Design. Evan has been married for almost 14 years to his wife and they have an 11 year old son. Evan said that he wanted to doa children’s book series because it had the elements of two things he loves; art and kids.</p>
+          <p>Evan Shoman graduated with a Bachelor’s Degree in Graphic Design. Evan has been married for almost 14 years to his wife and they have an 11 year old son. Evan said that he wanted to do a children’s book series because it had the elements of two things he loves; art and kids.</p>
         </div>
         <div class="cell small-order-5" id="creatorQuote">
-          <h3>“Quote from Jen here about an overall statement about the book” - Jen Dafoe</h3>
+          <h3>“The more knowledge you have, the more you are able to better understand what it's all about and that helps reduce stress and anxiety when going to the hospital, dentist or other health care professional.” - Jen Dafoe</h3>
         </div>
       </section>
 
       <!--Contact-->
-      <section class="grid-x grid-margin-x">
-        <h2 class="hidden">Contact Us</h2>
-        <div class="cell small-offset-4 medium-offset-5 small-4 medium-2">
-          <!-- <p class="boxHelper">LOGO</p> -->
+      <a id="contactLink">
+      <section class="grid-x grid-margin-x" id="contact">
+        <div class="cell small-offset-4 medium-offset-5 small-4 medium-2" id="contactLogo">
           <img src="images/logo.svg" alt="logo">
         </div>
-        <form class="cell medium-6">
-          <!-- <p class="boxHelper">FORM</p> -->
-          <p>CONTACT US</p>
+        <form class="cell medium-6" id="contactForm">
+          <h2>Contact Us</h2>
           <p>Thank you for your interest in Chico's Adventures! We would love to hear from you or answer any questions you might have. This is also a great place to contact us for a volunteer position, we love helpers!</p>
           
           <label for="name">Name</label>
-          <input type="text" required placeholder="Enter full name" size="30" id="name"><br>
+          <input type="text" required placeholder="Enter full name" name="name" class="contactInput">
 
           <label for="email">Email</label>
-          <input type="text" required placeholder="Enter email address" size="30" id="email"><br>
+          <input type="email" required placeholder="Enter email address" name="email" class="contactInput">
 
           <label for="message">Message</label>
-          <input type="text" required placeholder="Type message" size="30" id="message"><br>
+          <textarea type="text" required placeholder="Type message" name="message" class="contactInput"></textarea>
+          <a class="chicoButtons" id="contactButton" href="#">Send ></a>
         </form>
 
-        <div class="cell medium-6 hide-for-small-only">
-          <!-- <p class="boxHelper">IMAGE</p> -->
-          <img src="images/footerImg.jpg" alt="Image of Chico" title="Chico Posing">
+        <div class="cell medium-6 hide-for-small-only" id="contactImg">
+          <img src="images/contactImg.jpg" alt="Image of Chico" title="Chico Posing">
+        </div>
+
+        <div class="cell" id="socialMedia">
+          <h2 class="hidden">Social Media Links</h2>
+          <a href="https://www.facebook.com/ChicoHelpsSickKids/" target="_blank"><img src="images/facebook_icon.png" alt="Image of Facebook Icon" title="Chico's Adventures Facebook"></a>
+          <a href="https://www.twitter.com" target="_blank"><img src="images/twitter_icon.png" alt="Image of Twitter Icon" title="Chico's Adventures Twitter"></a>
+          <a href="https://www.instagram.com" target="_blank"><img src="images/instagram_icon.png" alt="Image of Instagram Icon" title="Chico's Adventures Instagram"></a>
+          <a href="#" target="_blank"><img src="images/email_icon.png" alt="Image of Email Icon" title="Chico's Adventures Email"></a>
         </div>
       </section>
 
       <!--Footer-->
       <footer class="grid-x grid-margin-x">
-        <h2 class="hidden">Main Footer</h2>
-        <div class="cell social">
-          <h3 class="hidden">Social Media Links</h3>
-          <!-- <p class="boxHelper">SOCIAL MEDIA</p> -->
-          <img src="images/facebook_icon.png" alt="Image of Facebook Icon" title="Chico's Adventures Facebook">
-          <img src="images/twitter_icon.png" alt="Image of Twitter Icon" title="Chico's Adventures Twitter">
-          <img src="images/instagram_icon.png" alt="Image of Instagram Icon" title="Chico's Adventures Instagram">
-          <img src="images/email_icon.png" alt="Image of Email Icon" title="Chico's Adventures Email">
-        </div>
-
-        <div class="cell footer">
-          <!-- <p class="boxHelper">FOOTER</p> -->
-          <p>Jen Dafoe Publishing</p>
-          <p>Contact: Jen Dafoe</p>
-          <p>Sarnia, Ontario, Canada</p>
-          <p>Content &copy; 2009 - 2019 Chico's Adventures For Kids. All rights reserved</p>
-          <p>Additional marks copyright of their respective owners. | Privacy</p>
-          <p>Hosting &copy; 2009 EBTech.net | Terms</p>
+        <div class="cell" id="footer">
+          <div id="footerText1">
+            <p>Jen Dafoe Publishing</p>
+            <p>Contact: Jen Dafoe</p>
+            <p>Sarnia, Ontario, Canada</p>
+          </div>
+          <div id="footerText2">
+            <p>Content &copy; 2009 - 2019 Chico's Adventures For Kids. All rights reserved</p>
+            <p>Additional marks copyright of their respective owners. | <a href="#">Privacy</a></p>
+            <p>Hosting &copy; 2009 <a href="http://ebtech.net/" target="_blank">EBTech.net</a> | <a href="#">Terms</a></p>
+          </div>
         </div>
       </footer>
 
