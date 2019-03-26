@@ -28,7 +28,7 @@ h2 {
 h3 {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 1.8em;
-	line-height: 1em;
+	line-height: 1.4em;
 	color: #000;
 }
 
@@ -41,18 +41,18 @@ h4 {
 
 p {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	line-height: 1.4em;
 	color: #000;
 }
 
 .chicoButtons {
-	background-color: #f5be4f;
+	background-color: #F5BE4F;
 	font-family: 'Ubuntu', sans-serif;
 	text-transform: uppercase;
-	font-size: 1.8em;
+	font-size: 1.4em;
 	color: #fff;
-	padding: 15px 30px;
+	padding: 10px 20px;
 }
 
 .chicoButtons a:hover {
@@ -100,6 +100,28 @@ p {
 	margin-left: 10px;
 }
 
+#subNav {
+	margin-top: 20px;
+	background-color: #fff;
+}
+
+#subNav ul {
+	list-style: none;
+	text-align: center;
+	justify-content: center;
+}
+
+#subNav ul li{
+	margin-left: 25px;
+	margin-right: 25px;
+	display: inline;
+	
+}
+
+#subNav1 a{
+	color: #00b2c0;
+}
+
 /*HOME PAGE*/
 /*Hero Images*/
 #heroSection {
@@ -109,7 +131,7 @@ p {
 
 /*Meet Chico Section*/
 #meetChico {
-	background-color: #175878;
+	background-color: #00b2c0;
 	padding: 40px 30px;
 	position: relative;
 	z-index: 1;
@@ -139,7 +161,7 @@ p {
 	width: 400px;
 	right: 0%;
 	position: absolute;
-	opacity: 0.4;
+	opacity: 0.6;
 	z-index: -1
 }
 
@@ -233,21 +255,96 @@ p {
 	text-align: center;
 }
 
-
-
 /*Contact Us Section*/
+#contact {
+	background-color: #fff;
+	padding: 40px 30px;
+}
 
-/*Social Section*/
-.social
-{
-	background-color: #FFFFFF; /*white*/
+#contactLogo {
+	margin-bottom: 30px;
+}
+
+#contactForm h2 {
+	text-align: center;
+	text-decoration: underline #F5BE4F;
+	margin-bottom: 20px;
+}
+
+#contactForm p {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#contactForm label {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.2em;
+	line-height: 1em;
+	color: #00b2c0;
+	margin-bottom: 5px;
+}
+
+.contactInput {
+	background-color: #00b2c0;
+}
+
+.contactInput::placeholder { 
+	color: #fff;
+}
+
+#contactForm textarea {
+	margin-bottom: 30px;
+}
+
+#contactButton {
+	float: right;
+}
+
+#socialMedia {
+	margin: 40px 0px;
+	text-align: center;
+}
+
+#socialMedia img {
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 18%;
 }
 
 /*Footer Section*/
-.footer
+#footer
 {
 	background-color: #EF4352; /*pink*/
+	padding: 30px 30px;
 }
+
+#footer p {
+	font-size: .8em;
+	color: #fff;
+	line-height: .9em;
+}
+
+#footer a {
+	color: #fff;
+}
+
+#footer a:hover {
+	color: #F5BE4F;
+}
+
+#footerText1 {
+	float: left;
+}
+
+#footerText2 {
+	float: left;
+	text-align: left;
+}
+
+
+
+
+
 
 /*Medium Size*/
 @media screen and (min-width: 40em) {
@@ -269,6 +366,14 @@ p {
 	#illustratorImg {
 		float: right;
 	}
+	#socialMedia img {
+		width: 100px;
+	}
+
+	#footerText2 {
+		float: right;
+		text-align: right;
+	}
 
 }
 
@@ -287,6 +392,11 @@ p {
 	}
 
 	#creators {
-	padding: 40px 60px;
+		padding: 40px 60px;
+	}
+
+	#socialMedia img {
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 }
