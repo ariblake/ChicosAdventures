@@ -24,10 +24,8 @@
     
         <div class="small-12 medium-6 small-order-1 medium-order-2 align-middle" id="mainLogo">
             <ul>
-              <a href="index.html">
-                <li><h1 class="text-center">Chico's<br>Adventures</h1><li>
-                <li><img class="float-center" src="images/logo.svg" alt="logo" id="logoImg"></li>
-              </a>
+                <li><a href="index.html"><h1 class="text-center">Chico's<br>Adventures</h1></a><li>
+                <li><a href="index.html"><img class="float-center" src="images/logo.svg" alt="logo" id="logoImg"></a></li>
             </ul>
         </div>
         
@@ -38,7 +36,7 @@
         </div>
         <nav class="cell hide-for-small-only small-12 small-order-4" id="subNav">
           <ul>
-            <li id="subNav1"><a href="#meetChicoLink">Meet Chico</a></li>
+            <li><a href="#meetChicoLink" id="subNav1">Meet Chico</a></li>
             <li><a href="#ourBookLink" id="subNav2">Our Book</a></li>
             <li><a href="#creatorsLink" id="subNav3">Creators</a></li>
             <li><a href="#contactLink" id="subNav4">Contact Us</a></li>
@@ -62,7 +60,7 @@
 
       <!--Meet Chico-->
       <section class="grid-x grid-margin-x">
-        <a id="meetChicoLink">
+        <a id="meetChicoLink"></a>
         <div class="cell small-12" id="meetChico">
           <img src="images/paw_prints.png" alt="Paw Prints" id="meetChicoPrints">
           <div id="meetChicoInfo">
@@ -79,7 +77,7 @@
       </section>
 
       <!--Our Book Has-->
-      <a id="ourBookLink">
+      <a id="ourBookLink"></a>
       <section class="grid-x grid-margin-x" id="ourBook">
         <div class="cell small-12">
           <h2>Our Book Has</h2>
@@ -111,7 +109,7 @@
       </section>
 
       <!--Creators-->
-      <a id="creatorsLink">
+      <a id="creatorsLink"></a>
       <section class="grid-x grid-margin-x align-center" id="creators">
         <div class="cell small-12">
           <h2>Creators</h2>
@@ -137,24 +135,27 @@
         </div>
       </section>
 
+
       <!--Contact-->
-      <a id="contactLink">
+      <a id="contactLink"></a>
       <section class="grid-x grid-margin-x" id="contact">
         <div class="cell small-offset-4 medium-offset-5 small-4 medium-2" id="contactLogo">
           <img src="images/logo.svg" alt="logo">
         </div>
+
         <form class="cell medium-6" id="contactForm">
+
           <h2>Contact Us</h2>
           <p>Thank you for your interest in Chico's Adventures! We would love to hear from you or answer any questions you might have. This is also a great place to contact us for a volunteer position, we love helpers!</p>
           
           <label for="name">Name</label>
-          <input type="text" required placeholder="Enter full name" name="name" class="contactInput">
+          <input type="text" required placeholder="Enter full name" id="name" class="contactInput">
 
           <label for="email">Email</label>
-          <input type="email" required placeholder="Enter email address" name="email" class="contactInput">
+          <input type="email" required placeholder="Enter email address" id="email" class="contactInput">
 
           <label for="message">Message</label>
-          <textarea type="text" required placeholder="Type message" name="message" class="contactInput"></textarea>
+          <textarea required placeholder="Type message" id="message" class="contactInput"></textarea>
           <a class="chicoButtons" id="contactButton" href="#">Send ></a>
         </form>
 

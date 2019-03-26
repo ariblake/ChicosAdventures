@@ -118,9 +118,10 @@ p {
 	
 }
 
-#subNav1 a{
+#subNav ul li a {
 	color: #00b2c0;
 }
+
 
 /*HOME PAGE*/
 /*Hero Images*/
@@ -262,7 +263,8 @@ p {
 }
 
 #contactLogo {
-	margin-bottom: 30px;
+	display: block;
+	margin-bottom: 40px;
 }
 
 #contactForm h2 {
