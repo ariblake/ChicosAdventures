@@ -53,15 +53,17 @@ p {
 	font-size: 1.4em;
 	color: #fff;
 	padding: 10px 20px;
+	transition: .3s;
 }
 
-.chicoButtons a:hover {
-	background-color: #fff;
+.chicoButtons:hover {
+	background-color: #c68a10;
+	color: #fff;
 }
 
 #container {
 	margin: 0 auto;
-	background-color: #ECECEC;
+	background-color: #fff;
 }
 
 
@@ -94,6 +96,10 @@ p {
 	border-bottom: 2px solid #ef4352;
 }
 
+.activePage {
+	border-bottom: 2px solid #ef4352;
+}
+
 #logoImg {
 	width: 55px;
 	margin-left: 10px;
@@ -117,9 +123,10 @@ p {
 }
 
 #subNav ul li{
-	margin-left: 28px;
-	margin-right: 28px;
+	margin-left: 10px;
+	margin-right: 10px;
 	display: inline;
+	font-size: .8em;
 }
 
 #subNav ul li:nth-child(1) a {
@@ -147,8 +154,6 @@ p {
 }
 
 
-
-
 /*HOME PAGE*/
 /*Hero Images*/
 #heroSection {
@@ -159,7 +164,7 @@ p {
 /*Meet Chico Section*/
 #meetChico {
 	background-color: #00b2c0;
-	padding: 40px 30px;
+	padding: 60px 30px;
 	position: relative;
 	z-index: 1;
 }
@@ -203,8 +208,9 @@ p {
 #ourBook h2 {
 	text-align: center;
 	padding-bottom: 10px;
-	text-decoration: underline #ef4352;
+	/*text-decoration: underline #ef4352;*/
 	margin-bottom: 30px;
+	border-bottom: solid 5px #ef4352;
 }
 
 #ourBook img {
@@ -249,8 +255,9 @@ p {
 #creators h2 {
 	text-align: center;
 	padding-bottom: 10px;
-	text-decoration: underline #175878;
+	/*text-decoration: underline #175878;*/
 	margin-bottom: 30px;
+	border-bottom: solid 5px #175878;
 }
 
 #creators img {
@@ -267,18 +274,58 @@ p {
 
 #authorText {
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 #illustratorText {
 	text-align: center;
-}
-
-#creators p {
 	margin-bottom: 40px;
 }
 
-#creatorQuote {
-	margin-top: 30px, 20px, 70px;
+#authorImg {
+	text-align: center;
+}
+
+
+#illustratorImg {
+	text-align: center;
+}
+
+#creatorQuote p {
+	text-align: center;
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.8em;
+	line-height: 1.4em;
+}
+
+/*ORDER PAGE*/
+/*Hero Image*/
+#orderHero {
+	position: relative;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+#orderHeroImg {
+	text-align: center;
+}
+
+#heroText {
+	position: absolute;
+	text-align: center;
+	color: #F5BE4F;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+/*Order Section*/
+#orderSection {
+	background-color: #fff;
+	padding: 60px 30px;
+}
+
+#orderText h2 {
+	color: #175878;
 	text-align: center;
 }
 
@@ -295,8 +342,10 @@ p {
 
 #contactForm h2 {
 	text-align: center;
-	text-decoration: underline #F5BE4F;
-	margin-bottom: 20px;
+	/*text-decoration: underline #F5BE4F;*/
+	margin-bottom: 10px;
+	border-bottom: solid 5px #F5BE4F;
+	padding-bottom: 10px;
 }
 
 #contactForm p {
@@ -391,8 +440,12 @@ p {
 	#illustratorText {
 		text-align: left;
 	}
+	#authorImg {
+		text-align: left;
+	}
+
 	#illustratorImg {
-		float: right;
+		text-align: right;
 	}
 	#socialMedia img {
 		width: 100px;
@@ -401,6 +454,16 @@ p {
 	#footerText2 {
 		float: right;
 		text-align: right;
+	}
+
+	#subNav ul li{
+		font-size: 1em;
+		margin-left: 28px;
+		margin-right: 28px;
+	}
+
+	#orderText h2 {
+		text-align: left;
 	}
 
 }
@@ -416,11 +479,11 @@ p {
 	}
 
 	#ourBook {
-		padding: 40px 60px;
+		padding: 60px 60px;
 	}
 
 	#creators {
-		padding: 40px 60px;
+		padding: 60px 60px;
 	}
 
 	#socialMedia img {
