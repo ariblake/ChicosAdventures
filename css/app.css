@@ -322,12 +322,117 @@ p {
 #orderSection {
 	background-color: #fff;
 	padding: 60px 30px;
+	margin-top: 20px;
 }
 
 #orderText h2 {
 	color: #175878;
 	text-align: center;
+	margin-bottom: 20px;
+	border-bottom: solid 5px #F5BE4F;
+	padding-bottom: 10px;
 }
+
+#orderText p {
+	margin-bottom: 10px;
+}
+
+#orderTextInfo {
+	margin-bottom: 30px;
+}
+
+#orderImg {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#orderButtons {
+	text-align: center;
+}
+
+#orderButtons a:hover {
+	background-color: #cc0415;
+	color: #fff;
+}
+
+#orderButtons a {
+	background-color: #EF4352
+}
+
+#orderText a {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*Testimonial Section*/
+.testimonial {
+	padding: 60px 30px;
+	margin-top: 20px;
+	text-align: center;	
+}
+
+.testimonial img {
+	width: 8%;
+}
+
+.testText {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.testText p {
+	color: #fff;
+	font-size: 1.4em;
+	padding-bottom: 20px;
+	border-bottom: solid 2px #175878;
+}
+
+.testText h4 {
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+#testCarousel {
+	background-color: #2BB892;
+}
+
+#test1 {
+	background-color: #2BB892;
+}
+
+#test2 {
+	background-color: #EF4352;
+}
+
+#test3 {
+	background-color: #F5BE4F;
+}
+
+#pawNavList {
+	display: inline;
+	list-style-type: none;
+}
+
+#pawNavList li {
+	display: inline;
+	list-style-type: none;
+}
+
+#pawNavList img {
+	cursor: pointer;
+	padding-bottom: 10px;
+}
+
+#pawNavList img:hover {
+	border-bottom: 3px #175878 solid;
+}
+
+.pawPrintNav img{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
 
 /*Contact Us Section*/
 #contact {
@@ -466,7 +571,22 @@ p {
 		text-align: left;
 	}
 
+	#orderImg {
+		margin-top: 0px;
+	}
+	#orderButtons {
+		text-align: left;
+	}
+	#orderButtons a {
+		margin-right: 5px;
+		margin-left: 0px;
+	}
+
+	.testimonial {
+		padding: 60px 60px;	
+	}
 }
+
 
 /*Large Size*/
 @media screen and (min-width: 64em) {
@@ -489,5 +609,13 @@ p {
 	#socialMedia img {
 		margin-left: 20px;
 		margin-right: 20px;
+	}
+
+	#orderText a {
+		margin-right: 15px;
+	}
+	#orderButtons a {
+		margin-right: 15px;
+		margin-left: 0px;
 	}
 }
