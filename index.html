@@ -18,23 +18,25 @@
       <header class="grid-x grid-margin-x align-center-middle" id="mainHeader">
         <div class="small-12 medium-2 small-order-2 medium-order-1" id="homeBtn">
           <ul class="menu">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="activePage">Home</a></li>
           </ul>
         </div>
     
         <div class="small-12 medium-6 small-order-1 medium-order-2 align-middle" id="mainLogo">
             <ul>
-                <li><a href="index.html"><h1 class="text-center">Chico's<br>Adventures</h1></a><li>
+                <li><a href="index.html"><h1 class="text-center">Chico's <br>Adventures</h1></a><li>
                 <li><a href="index.html"><img class="float-center" src="images/logo.svg" alt="logo" id="logoImg"></a></li>
             </ul>
         </div>
         
         <div class="small-12 medium-2 small-order-3 medium-order-3" id="orderBtn">
           <ul class="menu">
+            <h2 class="hidden">Main Navigation</h2>
             <li><a href="order.html">Order</a></li>
           </ul>
         </div>
-        <nav class="cell hide-for-small-only small-12 small-order-4" id="subNav">
+        <nav class="cell small-12 small-order-4" id="subNav">
+          <h2 class="hidden">Page Navigation</h2>
           <ul>
             <li><a href="#meetChicoLink">Meet Chico</a></li>
             <li><a href="#ourBookLink">Our Book</a></li>
@@ -51,7 +53,7 @@
           <img src="images/heroImage1.jpg" alt="Image of a stethoscope" title="Chico's Stethoscope">
         </div>
         <div class="cell medium-4">
-          <img src="images/heroImage2.jpg" alt="Image of a dog" title="Happy Chico">
+          <img data-interchange="[images/heroImage2_small.jpg, small], [images/heroImage2.jpg, medium]"  alt="Image of a dog" title="Happy Chico">
         </div>
         <div class="cell medium-4 hide-for-small-only">
           <img src="images/heroImage3.jpg" alt="Image of a bandage" title="Chico's Bandages">
@@ -131,7 +133,7 @@
           <p>Evan Shoman graduated with a Bachelor’s Degree in Graphic Design. Evan has been married for almost 14 years to his wife and they have an 11 year old son. Evan said that he wanted to do a children’s book series because it had the elements of two things he loves; art and kids.</p>
         </div>
         <div class="cell small-order-5" id="creatorQuote">
-          <h3>“The more knowledge you have, the more you are able to better understand what it's all about and that helps reduce stress and anxiety when going to the hospital, dentist or other health care professional.” - Jen Dafoe</h3>
+          <p>“The more knowledge you have, the more you are able to better understand what it's all about and that helps reduce stress and anxiety when going to the hospital, dentist or other health care professional.” - Jen Dafoe</p>
         </div>
       </section>
 
@@ -175,6 +177,7 @@
       <!--Footer-->
       <footer class="grid-x grid-margin-x">
         <div class="cell" id="footer">
+          <h2 class="hidden">Main Footer</h2>
           <div id="footerText1">
             <p>Jen Dafoe Publishing</p>
             <p>Contact: Jen Dafoe</p>

@@ -7,39 +7,67 @@
     <title>Chico's Adventures for Kids - Order & Donate</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
-  <body>
 
+  <body>
     <main id="container">
-      <header class="grid-x grid-margin-x" >
-        <h1 class="hidden">Chico's Adventures - Order</h1>
-        <div class="cell medium-offset-3 medium-2">
-          <p class="boxHelper">LOGO</p>
+
+      <!--Header-->
+      <header class="grid-x grid-margin-x align-center-middle" id="mainHeader">
+        <div class="small-12 medium-2 small-order-2 medium-order-1" id="homeBtn">
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+          </ul>
         </div>
-        <nav class="cell medium-4">
-          <h2 class="hidden">Main Navigation</h2>
-          <p class="boxHelper">NAV</p>
+    
+        <div class="small-12 medium-6 small-order-1 medium-order-2 align-middle" id="mainLogo">
+            <ul>
+                <li><a href="index.html"><h1 class="text-center">Chico's <br>Adventures</h1></a><li>
+                <li><a href="index.html"><img class="float-center" src="images/logo.svg" alt="logo" id="logoImg"></a></li>
+            </ul>
+        </div>
+        
+        <div class="small-12 medium-2 small-order-3 medium-order-3" id="orderBtn">
+          <ul class="menu">
+            <h2 class="hidden">Main Navigation</h2>
+            <li><a href="order.html" class="activePage">Order</a></li>
+          </ul>
+        </div>
+        <nav class="cell small-12 small-order-4" id="subNav">
+          <h2 class="hidden">Page Navigation</h2>
+          <ul>
+            <li><a href="#orderLink">Orders & Donations</a></li>
+            <li><a href="#testimonialLink">Testimonials</a></li>
+            <li><a href="#contactLink">Contact Us</a></li>
+          </ul>
         </nav>
       </header>
 
-      <section class="grid-x grid-margin-x">
-        <h2 class="hidden">Thank You For Ordering</h2>
-        <div class="cell">
-          <!-- <p class="boxHelper">IMG</p> -->
-          <img src="images/heroOrder.jpg" alt="Image of Chico with Person" title="Chico Loves Adventures">
+      <!--Hero Image-->
+      <section class="grid-x grid-margin-x align-center-middle" id="orderHero">
+        <h2 id="heroText">Thank You for Ordering</h2>
+        <div class="cell" id="orderHeroImg">
+          <img data-interchange="[images/orderHero_small.jpg, small], [images/orderHero.jpg, medium]" alt="Image of Chico in the snow" title="Chico Loves Adventures">
         </div>
       </section>
 
-      <section class="grid-x grid-margin-x">
-        <h2 class="hidden">Order Book</h2>
-        <div class="cell medium-7 small-order-1 medium-order-2">
-          <p class="boxHelper">ORDER TEXT</p>
+      <!--Order Section-->
+      <section class="grid-x grid-margin-x" id="orderSection">
+        <a id="orderLink"></a>
+        <div class="cell medium-7 small-order-1 medium-order-2" id="orderText">
+          <h2>Order Chico's Adventures</h2>
+          <p>One to twenty books is $12.99 each. <br>Twenty or more books? Please contact us and we'll work out a great deal for you! <br>Grab your copies, considering donating as well!</p>
+          <a class="chicoButtons" href="order.html">Checkout ></a>
+          <a class="chicoButtons" href="order.html">Donate ></a>
         </div>
-        <div class="cell medium-5 small-order-2 medium-order-1">
-          <p class="boxHelper">ORDER IMG</p>
+        <div class="cell medium-5 small-order-2 medium-order-1" id="orderImg">
+          <img src="images/book.jpg" alt="Chico's Adventures Book">
         </div>
       </section>
 
+      <!--Testimonial Section-->
       <section class="grid-x grid-margin-x">
         <h2 class="hidden">Testimonials</h2>
         <div class="cell">
@@ -53,52 +81,56 @@
         </div>
       </section>
 
-      <section class="grid-x grid-margin-x">
-        <h2 class="hidden">Contact Us</h2>
-        <div class="cell small-offset-4 medium-offset-5 small-4 medium-2">
-          <!-- <p class="boxHelper">LOGO</p> -->
+      <!--Contact-->
+      <a id="contactLink"></a>
+      <section class="grid-x grid-margin-x" id="contact">
+        <div class="cell small-offset-4 medium-offset-5 small-4 medium-2" id="contactLogo">
           <img src="images/logo.svg" alt="logo">
         </div>
-        <form class="cell medium-6">
-          <!-- <p class="boxHelper">FORM</p> -->
-          <p>CONTACT US</p>
+
+        <form class="cell medium-6" id="contactForm">
+
+          <h2>Contact Us</h2>
           <p>Thank you for your interest in Chico's Adventures! We would love to hear from you or answer any questions you might have. This is also a great place to contact us for a volunteer position, we love helpers!</p>
           
           <label for="name">Name</label>
-          <input type="text" required placeholder="Enter full name" size="30" id="name"><br>
+          <input type="text" required placeholder="Enter full name" id="name" class="contactInput">
 
           <label for="email">Email</label>
-          <input type="text" required placeholder="Enter email address" size="30" id="email"><br>
+          <input type="email" required placeholder="Enter email address" id="email" class="contactInput">
 
           <label for="message">Message</label>
-          <input type="text" required placeholder="Type message" size="30" id="message"><br>
+          <textarea required placeholder="Type message" id="message" class="contactInput"></textarea>
+          <a class="chicoButtons" id="contactButton" href="#">Send ></a>
         </form>
 
-        <div class="cell medium-6 hide-for-small-only">
-          <!-- <p class="boxHelper">IMAGE</p> -->
-          <img src="images/footerImg.jpg" alt="Image of Chico" title="Chico Posing">
+        <div class="cell medium-6 hide-for-small-only" id="contactImg">
+          <img src="images/contactImg.jpg" alt="Image of Chico" title="Chico Posing">
+        </div>
+
+        <div class="cell" id="socialMedia">
+          <h2 class="hidden">Social Media Links</h2>
+          <a href="https://www.facebook.com/ChicoHelpsSickKids/" target="_blank"><img src="images/facebook_icon.png" alt="Image of Facebook Icon" title="Chico's Adventures Facebook"></a>
+          <a href="https://www.twitter.com" target="_blank"><img src="images/twitter_icon.png" alt="Image of Twitter Icon" title="Chico's Adventures Twitter"></a>
+          <a href="https://www.instagram.com" target="_blank"><img src="images/instagram_icon.png" alt="Image of Instagram Icon" title="Chico's Adventures Instagram"></a>
+          <a href="#" target="_blank"><img src="images/email_icon.png" alt="Image of Email Icon" title="Chico's Adventures Email"></a>
         </div>
       </section>
 
+      <!--Footer-->
       <footer class="grid-x grid-margin-x">
-        <h2 class="hidden">Main Footer</h2>
-        <div class="cell social">
-          <h3 class="hidden">Social Media Links</h3>
-          <!-- <p class="boxHelper">SOCIAL MEDIA</p> -->
-          <img src="images/facebook_icon.png" alt="Image of Facebook Icon" title="Chico's Adventures Facebook">
-          <img src="images/twitter_icon.png" alt="Image of Twitter Icon" title="Chico's Adventures Twitter">
-          <img src="images/instagram_icon.png" alt="Image of Instagram Icon" title="Chico's Adventures Instagram">
-          <img src="images/email_icon.png" alt="Image of Email Icon" title="Chico's Adventures Email">
-        </div>
-
-        <div class="cell footer">
-          <!-- <p class="boxHelper">FOOTER</p> -->
-          <p>Jen Dafoe Publishing</p>
-          <p>Contact: Jen Dafoe</p>
-          <p>Sarnia, Ontario, Canada</p>
-          <p>Content &copy; 2009 - 2019 Chico's Adventures For Kids. All rights reserved</p>
-          <p>Additional marks copyright of their respective owners. | Privacy</p>
-          <p>Hosting &copy; 2009 EBTech.net | Terms</p>
+        <div class="cell" id="footer">
+          <h2 class="hidden">Main Footer</h2>
+          <div id="footerText1">
+            <p>Jen Dafoe Publishing</p>
+            <p>Contact: Jen Dafoe</p>
+            <p>Sarnia, Ontario, Canada</p>
+          </div>
+          <div id="footerText2">
+            <p>Content &copy; 2009 - 2019 Chico's Adventures For Kids. All rights reserved</p>
+            <p>Additional marks copyright of their respective owners. | <a href="#">Privacy</a></p>
+            <p>Hosting &copy; 2009 <a href="http://ebtech.net/" target="_blank">EBTech.net</a> | <a href="#">Terms</a></p>
+          </div>
         </div>
       </footer>
 
