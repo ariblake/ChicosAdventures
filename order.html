@@ -30,8 +30,8 @@
         </div>
         
         <div class="small-12 medium-2 small-order-3 medium-order-3" id="orderBtn">
+          <h2 class="hidden">Main Navigation</h2>
           <ul class="menu">
-            <h2 class="hidden">Main Navigation</h2>
             <li><a href="order.html" class="activePage">Order</a></li>
           </ul>
         </div>
@@ -54,13 +54,19 @@
       </section>
 
       <!--Order Section-->
+      <a id="orderLink"></a>
       <section class="grid-x grid-margin-x" id="orderSection">
-        <a id="orderLink"></a>
         <div class="cell medium-7 small-order-1 medium-order-2" id="orderText">
           <h2>Order Chico's Adventures</h2>
-          <p>One to twenty books is $12.99 each. <br>Twenty or more books? Please contact us and we'll work out a great deal for you! <br>Grab your copies, considering donating as well!</p>
-          <a class="chicoButtons" href="order.html">Checkout ></a>
-          <a class="chicoButtons" href="order.html">Donate ></a>
+          <div id="orderTextInfo">
+            <p>One to twenty books is $12.99 each.</p>
+            <p>Twenty or more books? Please contact us and we'll work out a great deal for you!</p>
+            <p>Grab your copies, considering donating as well!</p>
+          </div>
+          <div id="orderButtons">
+            <a class="chicoButtons" href="#">Checkout ></a>
+            <a class="chicoButtons" href="#">Donate ></a>
+          </div>
         </div>
         <div class="cell medium-5 small-order-2 medium-order-1" id="orderImg">
           <img src="images/book.jpg" alt="Chico's Adventures Book">
@@ -68,17 +74,61 @@
       </section>
 
       <!--Testimonial Section-->
-      <section class="grid-x grid-margin-x">
+      <a id="testimonialLink"></a>
+      <section class="grid-x grid-margin-x" id="testimonialSection">
         <h2 class="hidden">Testimonials</h2>
-        <div class="cell">
-          <p class="boxHelper">TESTIMONIAL 1</p>
+        <div class="cell testimonial hide-for-small-only" id="testCarousel">
+          <img src="images/quote.png" alt="Quotation Bubble">
+          <div class="testText">
+            <p class="testInfo">"This story does an amazing job at portraying a child's first visit to the dentist through the very cute eyes of Chico! Every parent should read this story to their young children to help them understand how easy and fun dentistry can be. I look forward to more Chico Experiences!"</p>
+            <h4 class="testName">Dr Karin Van Ryswyk D.D.S</h4>
+          </div>
+          <nav id="testNav" class="pawPrintNav hide-for-small-only">
+            <ul id="pawNavList">
+                  <li><img src="images/paw_print.png" class="testBut" data-offset="0" alt="testimonial navigation"></li>
+                  <li><img src="images/paw_print.png" class="testBut" data-offset="1" alt="testimonial navigation"></li>
+                  <li><img src="images/paw_print.png" class="testBut" data-offset="2" alt="testimonial navigation"></li>
+              </ul>
+          </nav>
         </div>
-        <div class="cell hide-for-medium">
-          <p class="boxHelper">TESTIMONIAL 2</p>
+
+        <div class="cell testimonial show-for-small-only" id="test1">
+          <img src="images/quote.png" alt="Quotation Bubble">
+          <div class="testText">
+            <p>"This story does an amazing job at portraying a child's first visit to the dentist through the very cute eyes of Chico! Every parent should read this story to their young children to help them understand how easy and fun dentistry can be. I look forward to more Chico Experiences!"</p>
+            <h4>Dr Karin Van Ryswyk D.D.S</h4>
+          </div>
+          <div class="pawPrintNav hide-for-small-only">
+            <img src="images/paw_print.png" alt="paw print navigation">
+            <img src="images/paw_print.png" alt="paw print navigation">
+            <img src="images/paw_print.png" alt="paw print navigation">
+          </div>
         </div>
-        <div class="cell hide-for-medium">
-          <p class="boxHelper">TESTIMONIAL 3</p>
+        <div class="cell testimonial show-for-small-only" id="test2">
+          <img src="images/quote.png" alt="Quotation Bubble">
+          <div class="testText">
+            <p>"It's time for Chico's first visit to the dentist! This informative and educational story is easy to read and understand. Chico and his mom will help your prepare your child and desensitize them before coming to the office. A definite recommend for parents of young children!"</p>
+            <h4>Dr. Raymond Lee, Paediatric Dentist</h4>
+          </div>
+          <div class="pawPrintNav hide-for-small-only">
+            <img src="images/paw_print.png" alt="paw print navigation">
+            <img src="images/paw_print.png" alt="paw print navigation">
+            <img src="images/paw_print.png" alt="paw print navigation">
+          </div>
         </div>
+        <div class="cell testimonial show-for-small-only" id="test3">
+          <img src="images/quote.png" alt="Quotation Bubble">
+          <div class="testText">
+            <p>"A must read for children and their parents beginning their journey as patients in a dental office."</p>
+            <h4>Dr. David R. Farkouh, Paediatric Dentist</h4>
+          </div>
+          <div class="pawPrintNav hide-for-small-only">
+            <img src="images/paw_print.png" alt="paw print navigation">
+            <img src="images/paw_print.png" alt="paw print navigation">
+            <img src="images/paw_print.png" alt="paw print navigation">
+          </div>
+        </div>
+
       </section>
 
       <!--Contact-->
