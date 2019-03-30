@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FDDE04;stroke-width:60;stroke-miterlimit:10;}
+	.st1{fill:#442913;}
+	.st2{fill:#C4AE70;}
+	.st3{fill:#331F0D;}
+	.st4{fill:#080808;}
+	.st5{fill:#FFFFFF;}
+	.st6{fill:#663708;}
+	.st7{fill:#727272;}
+	.st8{fill:none;stroke:#0185B7;stroke-width:15;stroke-miterlimit:10;}
+	.st9{fill:#878787;}
+	.st10{fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#878787;stroke-width:16;stroke-miterlimit:10;}
+</style>
+<g id="bckgrd">
+	<circle class="st0" cx="499" cy="503" r="355"/>
+</g>
+<g id="chico">
+	<g id="earR">
+		<path class="st1" d="M601.83,306.71c-11.14,5.83,150.45-256.77,218.43-158.69s52.04,268.14-105.37,342.75L601.83,306.71z"/>
+		<ellipse transform="matrix(0.5 -0.866 0.866 0.5 98.8369 779.8739)" class="st2" cx="724.81" cy="304.34" rx="67.68" ry="39.35"/>
+	</g>
+	<g id="earL">
+		<path class="st1" d="M415.06,302.87c11.84,5.91-158.98-262.05-232.03-161.24S126,416.47,293.45,491.97L415.06,302.87z"/>
+		
+			<ellipse transform="matrix(0.9003 -0.4353 0.4353 0.9003 -101.4258 152.1987)" class="st2" cx="281.52" cy="297.5" rx="39.35" ry="67.68"/>
+	</g>
+	<g id="head">
+		<path class="st3" d="M503.71,271.91c0.02-5.41-4.36-9.84-9.77-9.82c-32.72,0.11-138.8,11.91-188.58,154.72
+			c-38.31,109.92-65.01,143.6-79.11,153.68c-4.91,3.51-5.61,10.52-1.38,14.83c33.41,34.11,144.03,137.07,266.63,142.54
+			c5.52,0.25,10.13-4.19,10.15-9.72L503.71,271.91z"/>
+		<path class="st3" d="M497.04,262.47c0,0,139.12-15.73,198.39,154.34c40.24,115.44,67.67,146.79,81.13,155.03
+			c4,2.44,4.75,7.93,1.49,11.3c-31.41,32.48-149.52,144.96-278.87,144.96L497.04,262.47z"/>
+	</g>
+	<ellipse id="snout" class="st2" cx="497.2" cy="638.48" rx="137.4" ry="97.47"/>
+	<path id="nose_1_" class="st4" d="M498.94,575.46c0,0-56.87,1.68-37.1,46.38c0,0,13.01,20.89,37.71,27.17
+		c0,0,34.3-6.83,43.02-39.17C542.58,609.85,552,573.81,498.94,575.46z"/>
+	<g id="eyeL">
+		
+			<ellipse transform="matrix(0.9649 -0.2626 0.2626 0.9649 -112.8061 124.1574)" class="st5" cx="408.15" cy="484.16" rx="49.17" ry="37.65"/>
+		<circle class="st6" cx="408.15" cy="484.16" r="33.22"/>
+		<circle cx="407.7" cy="484.6" r="23.92"/>
+		<circle class="st5" cx="415.68" cy="473.97" r="7.09"/>
+	</g>
+	<g id="eyeR">
+		
+			<ellipse transform="matrix(0.2626 -0.9649 0.9649 0.2626 -32.2561 926.1059)" class="st5" cx="589.77" cy="484.16" rx="37.65" ry="49.17"/>
+		<circle class="st6" cx="589.77" cy="484.16" r="33.22"/>
+		<circle cx="590.21" cy="484.6" r="23.92"/>
+		<circle class="st5" cx="597.3" cy="473.97" r="7.09"/>
+	</g>
+	
+		<ellipse id="browL" transform="matrix(0.2626 -0.9649 0.9649 0.2626 -89.6899 730.2329)" class="st2" cx="432.91" cy="423.8" rx="15.75" ry="26.36"/>
+	
+		<ellipse id="browR" transform="matrix(0.9649 -0.2626 0.2626 0.9649 -91.636 163.2662)" class="st2" cx="565.06" cy="424.5" rx="27.4" ry="16.37"/>
+</g>
+<g id="stethoscope">
+	<circle id="center_x5F_outer" class="st7" cx="184" cy="734" r="61"/>
+	<g id="blue_x5F_tube">
+		<path class="st8" d="M716.94,371.23c-2.12-10.49,82.39,397.4-219.55,397.4c-104.55,0-162.49-46.64-193.57-107.51
+			c-58.39-114.33-22.05-278.88-22.05-278.88"/>
+		<path class="st8" d="M497.5,768.5c0,0-113.31,224.02,155,134c462-155-149-303-489-167"/>
+	</g>
+	<g id="center_x5F_inner">
+		<circle class="st9" cx="184.15" cy="734.21" r="35.02"/>
+	</g>
+	<g id="ears">
+		<g>
+			<circle class="st9" cx="286.09" cy="362.97" r="35.02"/>
+		</g>
+		<g>
+			<circle class="st9" cx="716.55" cy="362.97" r="35.02"/>
+		</g>
+	</g>
+	<g id="mouth_1_">
+		<path id="mouth_6_" class="st10" d="M415.85,666.63c0,0,39.45,30.52,87.61,0"/>
+		<path id="mouth_2_" class="st10" d="M498.39,666.63c0,0,39.45,30.52,87.61,0"/>
+	</g>
+	<g id="metal_x5F_tube">
+		<path class="st11" d="M286,367c0,0-42,153,12,282"/>
+		<path class="st11" d="M695,649c0,0,53-111,21-272"/>
+	</g>
+</g>
+</svg>

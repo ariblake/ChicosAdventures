@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#00B2BF;}
+	.st1{fill:#FDDE04;}
+	.st2{fill:#442913;}
+	.st3{fill:#C4AE70;}
+	.st4{fill:#331F0D;}
+	.st5{fill:#FF005B;}
+	.st6{fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:10;}
+	.st7{fill:#080808;}
+	.st8{fill:#FFFFFF;}
+	.st9{fill:#663708;}
+</style>
+<g id="bckgrd">
+	<circle class="st0" cx="502.5" cy="499.5" r="497.5"/>
+	<circle class="st1" cx="496" cy="502" r="398"/>
+</g>
+<g id="chico">
+	<g id="earR">
+		<path class="st2" d="M620.85,297.55C607.56,304.51,800.4-8.89,881.53,108.17s62.11,320-125.75,409.04L620.85,297.55z"/>
+		
+			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 128.5733 812.1335)" class="st3" cx="767.61" cy="294.72" rx="80.77" ry="46.96"/>
+	</g>
+	<g id="earL">
+		<path class="st2" d="M397.96,292.96c14.13,7.05-189.73-312.73-276.91-192.42s-68.06,328,131.78,418.1L397.96,292.96z"/>
+		
+			<ellipse transform="matrix(0.9003 -0.4353 0.4353 0.9003 -100.9418 132.4196)" class="st3" cx="238.58" cy="286.55" rx="46.96" ry="80.77"/>
+	</g>
+	<g id="head">
+		<path class="st4" d="M503.75,256.01c0.03-6.46-5.2-11.74-11.66-11.72c-39.05,0.13-165.64,14.21-225.05,184.64
+			c-45.72,131.18-77.59,171.38-94.41,183.4c-5.86,4.19-6.69,12.56-1.65,17.7c39.88,40.71,171.88,163.58,318.2,170.11
+			c6.59,0.29,12.09-5,12.12-11.6L503.75,256.01z"/>
+		<path class="st4" d="M495.8,244.75c0,0,166.02-18.77,236.76,184.19c48.02,137.77,80.75,175.19,96.83,185.01
+			c4.77,2.92,5.67,9.46,1.78,13.48c-37.48,38.76-178.44,172.99-332.81,172.99L495.8,244.75z"/>
+	</g>
+	<ellipse id="snout" class="st3" cx="495.98" cy="693.49" rx="163.98" ry="116.32"/>
+	<path id="tongue" class="st5" d="M464.52,743.7c0,0-7.68,72.24,35.67,72.24c34.23,0,34.52-18.1,34.52-72.24
+		c0,0-29.11-8.53-31.93-8.53C498.08,735.18,478.25,747.89,464.52,743.7z"/>
+	<g id="mouth_2_">
+		<path id="mouth" class="st6" d="M415.44,728.4c0,0,39.41,30.49,87.53,0"/>
+		<path id="mouth_1_" class="st6" d="M497.89,728.4c0,0,39.41,30.49,87.53,0"/>
+	</g>
+	<path id="nose_1_" class="st7" d="M498.06,618.28c0,0-67.87,2.01-44.28,55.36c0,0,15.53,24.93,45.01,32.42
+		c0,0,40.94-8.15,51.35-46.74C550.14,659.32,561.39,616.31,498.06,618.28z"/>
+	<g id="eyeL">
+		
+			<ellipse transform="matrix(0.9649 -0.2626 0.2626 0.9649 -120.0585 120.1978)" class="st8" cx="389.71" cy="509.31" rx="58.68" ry="44.94"/>
+		<circle class="st9" cx="389.71" cy="509.31" r="39.65"/>
+		<circle cx="389.18" cy="509.84" r="28.55"/>
+		<circle class="st8" cx="398.69" cy="497.15" r="8.46"/>
+	</g>
+	<g id="eyeR">
+		
+			<ellipse transform="matrix(0.2626 -0.9649 0.9649 0.2626 -44.2236 960.7585)" class="st8" cx="606.46" cy="509.31" rx="44.94" ry="58.68"/>
+		<circle class="st9" cx="606.46" cy="509.31" r="39.65"/>
+		<circle cx="606.99" cy="509.84" r="28.55"/>
+		<circle class="st8" cx="615.45" cy="497.15" r="8.46"/>
+	</g>
+	
+		<ellipse id="browL" transform="matrix(0.2626 -0.9649 0.9649 0.2626 -112.7659 727.0009)" class="st3" cx="419.25" cy="437.28" rx="18.8" ry="31.46"/>
+	
+		<ellipse id="browR" transform="matrix(0.9649 -0.2626 0.2626 0.9649 -94.7939 166.8709)" class="st3" cx="576.97" cy="438.12" rx="32.69" ry="19.54"/>
+</g>
+</svg>
