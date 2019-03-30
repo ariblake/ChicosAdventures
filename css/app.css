@@ -141,10 +141,12 @@ p {
 	display: inline;
 	font-size: .8em;
 }
+
 #subNav ul li:nth-child(1) a {
 	color: #fff;
 	background-color: #175878;
 }
+
 #subNav ul li:nth-child(2) a {
 	color: #00b2c0;
 	background-color: #175878;
@@ -177,6 +179,7 @@ p {
 	background-color: #fff;
 }
 
+
 /*Meet Chico Section*/
 #meetChico {
 	background-color: #00b2c0;
@@ -203,7 +206,6 @@ p {
 #meetChicoText {
 	margin-bottom: 40px;
 }
-
 
 #meetChicoPrints {
 	width: 400px;
@@ -293,15 +295,22 @@ p {
 	margin-bottom: 40px;
 }
 
+#authorText p {
+	text-align: justify;
+}
+
 #illustratorText {
 	text-align: center;
 	margin-bottom: 40px;
 }
 
+#illustratorText p {
+	text-align: justify;
+}
+
 #authorImg {
 	text-align: center;
 }
-
 
 #illustratorImg {
 	text-align: center;
@@ -315,16 +324,24 @@ p {
 	line-height: 1.4em;
 }
 
+
 /*ORDER PAGE*/
 /*Hero Image*/
 #orderHero {
 	position: relative;
 	background-color: #fff;
 	margin-bottom: 20px;
+	/*width: 100%;
+	float: left;
+	margin: 0;*/
 }
 
 #orderHeroImg {
 	text-align: center;
+	/*added to fix gaps*/
+	margin: auto;
+	width: 100%;
+	padding: 0;
 }
 
 #heroText {
@@ -332,13 +349,18 @@ p {
 	text-align: center;
 	color: #F5BE4F;
 	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+	/*added to fix gaps*/
+	width: 100%;
+	float: left;
+	margin: 0;
 }
+
 
 /*Order Section*/
 #orderSection {
 	background-color: #fff;
-	padding: 60px 30px;
-	margin-top: 20px;
+	padding: 60px 30px; /*trbl*/
+	margin-top: -20px;
 }
 
 #orderText h2 {
@@ -381,11 +403,16 @@ p {
 	margin-right: 5px;
 }
 
+.chicoButtons {
+	font-size: 20px;
+}
+
+
 /*Testimonial Section*/
 .testimonial {
 	padding: 60px 30px;
 	margin-top: 20px;
-	text-align: center;	
+	text-align: center;
 }
 
 .testimonial img {
@@ -411,6 +438,10 @@ p {
 
 #testCarousel {
 	background-color: #2BB892;
+	/*added to fix gaps*/
+	width: 100%;
+	float: left;
+	margin: 0;
 }
 
 #test1 {
@@ -444,11 +475,10 @@ p {
 	border-bottom: 3px #175878 solid;
 }
 
-.pawPrintNav img{
+.pawPrintNav img {
 	margin-left: 10px;
 	margin-right: 10px;
 }
-
 
 
 /*Contact Us Section*/
@@ -460,6 +490,7 @@ p {
 #contactLogo {
 	display: block;
 	margin-bottom: 40px;
+	margin-top: -20px;
 }
 
 #contactForm h2 {
@@ -471,7 +502,7 @@ p {
 }
 
 #contactForm p {
-	text-align: center;
+	text-align: left;
 	margin-bottom: 20px;
 }
 
@@ -500,7 +531,7 @@ p {
 }
 
 #socialMedia {
-	margin: 40px 0px;
+	margin: 40px 0px -20px 10px; /*trbl*/
 	text-align: center;
 }
 
@@ -510,11 +541,12 @@ p {
 	width: 18%;
 }
 
+
 /*Footer Section*/
 #footer
 {
 	background-color: #EF4352; /*pink*/
-	padding: 30px 30px;
+	padding: 20px 20px 4px 20px; /*trbl*/
 }
 
 #footer p {
@@ -539,8 +571,6 @@ p {
 	float: left;
 	text-align: left;
 }
-
-
 
 
 
