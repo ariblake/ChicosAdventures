@@ -13,6 +13,9 @@ This project was chosen as the winner for the #1 branding and website for Chico'
 * JavaScript
 * [Foundation](https://get.foundation/) - Responsive Front-end Framework
 
+## Live Demo
+[View a live demo of the site](https://arianablake-chicosadventures.netlify.app/)
+
 ## Acknowledgements
 * Fonts (https://fonts.google.com/)
 * Photos (Jen Dafoe, https://www.pexels.com/ and https://unsplash.com/)
